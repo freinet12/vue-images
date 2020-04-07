@@ -21,7 +21,7 @@ for the Authorization Callback URL, use :
 ```
 
 ```
-3) create a .env file and add your imgur Client ID and Client Secret to the following variables:
+3) create a .env file in the root of the project and add your imgur Client ID and Client Secret to the following variables:
 
   VUE_APP_IMGUR_CLIENTID=your-client-id
   VUE_APP_IMGUR_SECRET=your-client-secret
