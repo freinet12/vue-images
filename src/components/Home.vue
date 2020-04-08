@@ -15,10 +15,10 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
     .inner{
-        left: 22%;
+        left: 30%;
         margin: 0;
         position: absolute;
         top: 50%;

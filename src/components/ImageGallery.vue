@@ -1,5 +1,8 @@
 <template>
     <div class="img-container">
+        <div class="no-images" v-if="allImages.length === 0">
+            <h5>You have no images.</h5>
+        </div>
         <img
             v-for="image in allImages"
             :key="image.id"
@@ -40,5 +43,18 @@
         padding: 0;
     }
 
+    .no-images{
+        left: 34%;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    h5{
+        font-size: 5em;
+        color: #4d4d4d;
+    }
 
 </style>
